@@ -1,0 +1,45 @@
+.m-comment-input {
+    margin: 20px;
+}
+.u-form-item {
+    margin-bottom: 20px;
+    width: 400px;
+}
+.u-form-item label {
+    position:relative;
+    float: left;
+    display: block;
+    width: 100px;
+    margin-right: -100px;
+    font-size: 14px;
+}
+
+.u-form-item input,.u-form-item textarea {
+    margin-left:100px;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.u-form-item textarea {
+    height: 200px;
+    resize: none;
+}
+.u-form-button {
+   width: 500px;
+}
+.u-form-button button {
+    float: right;
+    padding: 5px;
+    width: 70px;
+    background: aqua;
+    color: #fff;
+    border: none;
+}
+.u-form-item::after,
+.u-form-button::after {
+    display: block;
+    content: "";
+    opacity: 0;
+    clear: both;
+}

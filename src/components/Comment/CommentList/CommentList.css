@@ -1,0 +1,15 @@
+.m-list-item:first-child{
+    border-top: 1px solid #ddd; 
+}
+.m-list-item {
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px 0px;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+.m-list-item .u-name {
+    display: block;
+    width: 100px;
+    color: cadetblue;
+}
